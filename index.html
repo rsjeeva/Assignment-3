@@ -7,9 +7,16 @@
     <style>
         body{
             background-color: #FFFFDD;
+            border-bottom: solid grey 3px;
         }
         .bird{
             border: 1px solid gray;
+        }
+
+        .Submit
+        {   position: relative;
+            left: 50%;
+            text-align: center;
         }
     </style>
 </head>
@@ -454,8 +461,29 @@ then proof of AADHAAR along with supporting documents is to be submitted to NSDL
                 </tr>
             </tbody>
         </table>
-        For paperless PAN Application: <input type="radio" name="Paperless">Yes&nbsp;&nbsp;&nbsp;<input type="radio" name="Paperless">No
-
+        For paperless PAN Application: <input type="radio" name="Paperless">Yes&nbsp;&nbsp;&nbsp;<input type="radio" name="Paperless">No <br>
+        <input type="radio">DSC &nbsp;&nbsp;<select name="" id="">
+            <option value="">Minor</option>
+            <option value="">Lunatic/Idiot</option>
+            <option value="">Self</option> 
+        </select> &nbsp;&nbsp;&nbsp;Guidelines for DSC user <br>
+        Upload Photo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button>choose file</button>No file chosen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Upload Signature&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button>Choose File</button>&nbsp;&nbsp;&nbsp;No file chosen <br>
+        Upload document&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button>choose file</button>No file chosen&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OR <br>
+        <button>Fetch from DigiLocker</button> <br>
+        Already Uploaded Photo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text"><br> <br>
+        Already Uploaded Signature:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text"><br>  <br>
+        Already Uploaded Documents:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text"><br> <br>
+        <input type="submit" value="Submit" class="Submit">
+        <br>
+        <br>
+        <br>    
     </form>
 </body>
+
 </html>
